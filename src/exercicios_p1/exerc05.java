@@ -7,14 +7,12 @@ public class exerc05 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        int cod1, qnt1, cod2, qnt2;
+        int qnt1, qnt2;
         double valorP1, valorP2, total;
 
-        cod1 = sc.nextInt();
         qnt1 = sc.nextInt();
         valorP1 = sc.nextDouble();
 
-        cod2 = sc.nextInt();
         qnt2 = sc.nextInt();
         valorP2 = sc.nextDouble();
 
