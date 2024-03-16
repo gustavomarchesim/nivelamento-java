@@ -10,11 +10,7 @@ public class calcula_hora {
         horaFinal = sc.nextInt();
         horaInicial = sc.nextInt();
 
-        if (horaInicial < horaFinal) {
-            duracao = horaFinal - horaInicial;
-        } else {
-            duracao = 24 - horaInicial + horaFinal;
-        }
+        duracao = horaInicial < horaFinal ? horaFinal - horaInicial : 24 - horaInicial + horaFinal;
 
         System.out.println("O JOGO DUROU " + duracao + " HORA(S)");
         sc.close();
